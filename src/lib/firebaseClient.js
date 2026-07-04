@@ -10,14 +10,13 @@ import { getStorage } from 'firebase/storage';
 // the Firestore/Storage security rules (see firestore.rules / storage.rules),
 // not from hiding this object.
 const firebaseConfig = {
-  apiKey: 'PASTE_YOUR_API_KEY_HERE',
-  authDomain: 'PASTE_YOUR_PROJECT_ID.firebaseapp.com',
-  projectId: 'PASTE_YOUR_PROJECT_ID',
-  storageBucket: 'PASTE_YOUR_PROJECT_ID.appspot.com',
-  messagingSenderId: 'PASTE_YOUR_SENDER_ID',
-  appId: 'PASTE_YOUR_APP_ID',
+  apiKey: "AIzaSyClEJijull6ThzlID7lWfISax-JtywKYcQ",
+  authDomain: "aether-universe.firebaseapp.com",
+  projectId: "aether-universe",
+  storageBucket: "aether-universe.firebasestorage.app",
+  messagingSenderId: "714005832083",
+  appId: "1:714005832083:web:14aa24c873e8be5bd88866"
 };
-
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
