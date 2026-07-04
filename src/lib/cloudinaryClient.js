@@ -10,8 +10,8 @@
 //    uploads with no server/API key exposed). Save, and copy the preset name.
 // 5. Paste both values below.
 
-const CLOUD_NAME = 'PASTE_YOUR_CLOUD_NAME_HERE';
-const UPLOAD_PRESET = 'PASTE_YOUR_UNSIGNED_UPLOAD_PRESET_HERE';
+const CLOUD_NAME = ixu7sdfu;
+const UPLOAD_PRESET = Memory-univarse;
 
 // resourceType: 'image' | 'video' (voice notes also use 'video' — Cloudinary
 // treats all audio/video the same way under this endpoint).
