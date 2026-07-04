@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react';
 // page), set `base` to '/<repo-name>/' below. Skip this if you're using a
 // custom domain or a github.io *user* page (username.github.io repo).
 export default defineConfig({
-  base: '/aether-memory-universe/', // <-- change this to match your repo name
+  base: '/Memory-universe1/',, // <-- change this to match your repo name
   plugins: [react()],
   server: { port: 5173 },
 });
